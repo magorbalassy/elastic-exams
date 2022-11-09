@@ -1,0 +1,5 @@
+reindex.remote.whitelist: es04:9200
+reindex.ssl.certificate_authorities: /usr/share/elasticsearch/config/certificates/ca/ca.crt
+reindex.ssl.verification_mode: none
+cluster.name: "docker-cluster"
+network.host: 0.0.0.0
